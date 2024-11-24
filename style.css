@@ -1,0 +1,81 @@
+
+
+.grid {
+    width: 400px;
+    height: 600px;
+    background-image: url("Back.png"); 
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#score{
+    color: white;
+    position: absolute;
+    left: 180px;
+    top: 230px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100px;
+}
+
+span{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    left: 50px;
+    top: 60px;
+}
+
+
+.neustart{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(80, 54, 227);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    border: white;
+    position: absolute;
+    top: 500px;
+    right: 50px;
+    border-color: rgb(114, 9, 183);
+    -webkit-box-shadow:0px 0px 6px 4px rgba(181,23,157,0.3);
+    -moz-box-shadow: 0px 0px 6px 4px rgba(181,23,157,0.3);
+    box-shadow: 0px 0px 6px 4px rgba(181,23,157,0.3);
+
+}
+
+.neustart:hover{
+    color: rgb(247, 37, 133);
+    border-color: rgb(35, 81, 207);
+    -webkit-box-shadow:0px 0px 6px 4px rgb(247, 37, 133);
+    -moz-box-shadow: 0px 0px 6px 4px rgb(247, 37, 133);
+    box-shadow: 0px 0px 6px 4px rgb(247, 37, 133);
+
+}
+
+
+.doodler {
+    width: 77px;
+    height: 157px;
+    background-image: url('Astro.png');
+    position: absolute;
+}
+
+.platform {
+    width: 85px;
+    height: 15px;
+    background-color: rgba(67, 97, 238, 0.541);
+    position: absolute;
+    border-radius: 10px;
+    border-color: rgb(114, 9, 183);
+    -webkit-box-shadow:0px 0px 6px 4px rgba(181,23,157,0.3);
+    -moz-box-shadow: 0px 0px 6px 4px rgba(181,23,157,0.3);
+    box-shadow: 0px 0px 6px 4px rgba(181,23,157,0.3);
+}
